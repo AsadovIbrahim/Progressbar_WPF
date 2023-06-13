@@ -1,0 +1,15 @@
+﻿<Window x:Class="Binding_Practics.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Binding_Practics"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+            <!--<Button Template="{StaticResource btnControlTemplate}" Width="100" Height="100" Content="Ibrahim"/>-->
+        <ProgressBar x:Name="PB" Template="{StaticResource progressBarTemplate}"/>
+        <Button Content="+" Width="30" Height="30" Margin="670,0,0,210" Click="Button_Click"/>
+        <Button Content="-" Width="30" Height="30" Margin="0,0,670,210" Click="Button_Click1"/>
+    </Grid>
+</Window>
